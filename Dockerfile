@@ -11,4 +11,4 @@ COPY    . .
 
 RUN     npm install && bower install --allow-root
 
-CMD     ["npm", "start"]
+CMD     ["./entrypoint.sh"]
